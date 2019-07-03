@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+
+    <style>
+
+*{
+    text-decoration:none;
+    list-style:none;
+}
+
+    #header {
+        width:400px;
+        margin:20px 100px 0px 0px;
+        border:2px solid gray;
+        padding:10px;
+        box-sizing:border-box;
+        text-align: center;
+        height:560px;
+        line-height: 45px;
+        float: right;
+    }
+    #header ul li:nth-child(1)
+    {
+font-size:3em;
+font:bold;
+         font-family:'pacifico';
+
+ }
+    #header ul li:nth-child(2){
+        color: gray;
+        font-size:1em;
+
+    }
+#header ul li:nth-child(3){
+    color: white;
+    width: 300px;
+    background-color: lightskyblue;
+    font-size: 1em;
+    border-radius: 10px;
+    text-align: center;
+    margin:0px auto;
+
+
+
+}
+#header .submit {
+   color: white;
+    width: 300px;
+    background-color: lightskyblue;
+    font-size: 1em;
+    border-radius: 10px;
+    text-align: center;
+    margin:0px auto;
+
+
+}
+
+
+     #photo img {
+    margin:50px;
+    width:400px;
+         height:500px;
+         padding-top: 10px;
+float:right;
+
+    }
+    #content {
+        width:400px;
+        margin:0px 100px 0px 0px;
+        border:2px solid gray;
+        padding:0px;
+        text-align: center;
+        height:70px;
+        line-height:70px;
+        float: right;
+
+    }
+
+#header .or{
+    font-size: 13px!important;
+    color: #999;
+    font-weight: 600;
+
+}
+#header .or::before {
+content: '';
+    background: #efefef;
+    display: block;
+    height:2px;
+    width: 110px;
+    position:relative;
+    top:11px;
+
+}
+#header .or::after {
+content: '';
+    background: #efefef;
+    display: block;
+    height:1px;
+    width: 110px;
+    position: relative;
+    bottom:11px;
+    left: 200px;
+
+
+}
+
+        #footer {
+            float: right;
+            color: lightskyblue;
+            position: absolute;
+            bottom:10px;
+            height:20px;
+            line-height:20px;
+           vertical-align: middle;
+
+
+
+        }
+
+</style>
+
+
+
+</head>
+<body>
+    <div id="header">
+       <ul>
+        <li>instagram</li>
+           <li>친구들의 사진 동영상을 보려면 가입하세요.</li>
+        <li><p><a href="https://m.facebook.com/dialog/oauth?client_id=124024574287414&redirect_uri=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Fsignup%2F&state=%7B%22fbLoginKey%22%3A%221kww9l87adpdym1xp1nig66bg4h2p17z9z5u1x7yj5nnma062%22%2C%22fbLoginReturnURL%22%3A%22%2F%22%7D&scope=email&response_type=code%2Cgranted_scopes"
+        target="_self">페이스북으로 로그인</a></p></li>
+        <p class="or">또는</p>
+
+<form>
+    <div class="group">
+        <input type="text" class="form control"
+               placeholder="휴대폰 번호 또는 이메일 주소">
+           <div class="group">
+        <input type="text" class="form control"
+               placeholder="성명">
+                  <div class="group">
+        <input type="text" class="form control"
+               placeholder="사용자 이름">
+   <div class="group">
+        <input type="password" class="form control"
+               placeholder="비밀번호">
+
+    </div>
+                  </div>
+           </form>
+
+
+        <div class="submit">
+
+            <button type="submit" class="btn btn-primary btn-block">가입</button>
+
+        </div>
+
+           <li>가입하면 instagram의 약관,데이터 정</li>
+        <li> 책 쿠키 정책에 동의하게 됩니다.</li>
+           </ul>
+    </div>
+    <div id="photo">
+    <img src="instagram.png"/>
+    </div>
+
+
+    <div id="content">
+        <p>계정이 있으신가요?<a href="https://www.instagram.com/accounts/login/?source=auth_switcher"
+              target="_self"> 로그인
+        </a>
+        </p>
+
+    </div>
+<div>
+앱을 다운로드하세요.
+</div>
+<div id="footer">
+<p><a href="https://www.instagram.com/about/us/" target="_self"> INSTAGRAM 정보</a></p>
+    <p><a href="https://help.instagram.com" target="_self"> 지원</a></p>
+    <p><a href="https://instagram-press.com" target="_self"> 홍보 센터</a></p>
+    <p><a href="https://www.instagram.com/developer/" target="_self"> API</a></p>
+    <p><a href="https://www.instagram.com/about/jobs/" target="_self"> 채용 정보</a></p>
+    <p><a href="https://help.instagram.com/519522125107875" target="_self"> 개인정보처리방침</a></p>
+    <p><a href="https://help.instagram.com/581066165581870" target="_self"> 약침</a></p>
+    <p><a href="https://www.instagram.com/explore/locations/" target="_self"> 디렉터리</a></p>
+    <p><a href="https://www.instagram.com/directory/profiles/" target="_self"> 프로필</a></p>
+    <p><a href="https://www.instagram.com/directory/hashtags/" target="_self"> 해시태그</a></p>
+
+언어
+2019 INSTAGRAM
+
+</div>
+
+</body>
+</html>
